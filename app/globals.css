@@ -1,4 +1,8 @@
 @import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* Offsets the height of your sticky header */
+}
 
 :root {
   --background: #ffffff;
@@ -18,9 +22,7 @@
     --foreground: #ededed;
   }
 }
-html {
-  scroll-behavior: smooth;
-}
+
 body {
   background: var(--background);
   color: var(--foreground);
